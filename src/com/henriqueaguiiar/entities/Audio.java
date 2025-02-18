@@ -4,7 +4,7 @@ public class Audio {
     private String titulo;
     private int totalReproducoes;
     private int totalCurtidas;
-    private double classicacao;
+    private int classicacao;
 
 
     public String getTitulo() {
@@ -23,7 +23,7 @@ public class Audio {
         return totalCurtidas;
     }
 
-    public double getClassicacao() {
+    public int getClassicacao() {
         return classicacao;
     }
 
